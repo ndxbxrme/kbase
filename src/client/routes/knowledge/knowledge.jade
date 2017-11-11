@@ -1,0 +1,6 @@
+.knowledge-route
+  button(ui-sref='knowledge-single({_id:"beeeef"})') New
+  h1 total knowledge known = {{knowledge.total}} {{knowledge.total===1 ? 'thing' : 'things'}}
+  .knowledge(ng-repeat='info in knowledge.items') 
+    a(ui-sref='knowledge-single({_id:info._id})') {{info.text}} - {{info.insertedAt | date:'ddfuck MMM yyyy'}}
+  pagination(ng-model='knowledge.args.page', total='knowledge.total', page-size='knowledge.args.pageSize')

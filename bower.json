@@ -21,6 +21,10 @@
     "angular": "^1.6.6",
     "angular-touch": "^1.6.6",
     "angular-ui-router": "^1.0.10",
-    "ndx-auth": "^0.3.8"
+    "ndx-auth": "^0.3.8",
+    "ndx-rest": "^0.2.8",
+    "ndx-form-extras": "^0.0.11",
+    "ndx-socket": "^0.0.6",
+    "ndx-pagination": "^0.1.3"
   }
 }

@@ -1,0 +1,5 @@
+.knowledge-single-route
+  form(name='myForm', novalidate, ng-submit='save()')
+    textarea(ng-model='knowledge.item.text')
+    button.cancel(type='button', ng-click='auth.goToLast()') Cancel
+    input(type='submit', value='Submit')
